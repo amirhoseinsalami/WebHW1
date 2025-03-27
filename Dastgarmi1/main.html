@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تگ با حساب و کتاب</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <div class="vars">
+    <h3>قیمت واحد</h3>
+    <input class="var" type="text" id="fee" placeholder=" قیمت واحد "/>
+    <h3>تعداد</h3>
+    <input class="var" type="text" id="count" placeholder="تعداد"/>
+    <h3>تخفیف</h3>
+    <input class="var" type="text" id="discount" placeholder="تخفیف"/>
+    <h3>قیمت نهایی</h3>
+    <formula class="formula" evaluator="count*fee-discount"></formula>
+    </div>
+
+
+    <div class="vars">
+      <h3>عدد اول</h3>
+      <input class="var" type="text" id="a" placeholder="عدد اول">
+      <h3>عدد دوم</h3>
+      <input class="var" type="text" id="b" placeholder="عدد دوم">
+      <h3>میانگین</h3>
+      <formula class="formula" evaluator="(a+b)/2"></formula>
+    </div>
+
+    
+    <div class="vars">
+      <h3>شعاع</h3>
+      <input class="var" type="text" id="r" placeholder="شعاع">
+      <h3>مساحت دایره با این شعاع</h3>
+      <formula class="formula" evaluator="3.14*r*r"></formula>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

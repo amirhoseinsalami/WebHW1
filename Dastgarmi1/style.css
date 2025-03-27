@@ -1,0 +1,33 @@
+.vars{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.var{
+    background-color: rgba(187, 175, 225, 0.297);
+}
+
+.formula {
+    display: block;
+    padding: 10px;
+    background-color: #b3f2d7;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+::placeholder {
+    text-align: center; 
+ }
+
+#total{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 2px;
+    
+ }
+
